@@ -1,13 +1,14 @@
 [Firefox Relay](https://relay.firefox.com) provides emails masks for
 [Firefox Accounts](accounts.firefox.com/) users with a domain of `mozmail.com`,
 or (for paying users) a subdomain of `mozmail.com`. Some services deny
-registration or avoid emailing disposable email addresses. We try to keep
-`mozmail.com` off these deny lists, so that our users can use their email more
-places.
+registration or avoid emailing
+[disposable email addresses](https://en.wikipedia.org/wiki/Disposable_email_address).
+We try to keep `mozmail.com` off these deny lists, so that our users can use
+their email more places.
 
 # Disposable domain lists
 
-These are repositories that maintain lists of [disposable email addresses](https://en.wikipedia.org/wiki/Disposable_email_address).
+These repositories maintain lists of disposable email addresses.
 
 |Name|Link|Has mozmail.com?|Age|Note|
 |:---|:---|:---------------|:--|:---|
@@ -23,7 +24,7 @@ These are repositories that maintain lists of [disposable email addresses](https
 |[disposable-email-domains/disposable-email-domains](./disposable-email-domains/disposable-email-domains)|[GitHub](https://github.com/disposable-email-domains/disposable-email-domains)|In [allow list](https://github.com/disposable-email-domains/disposable-email-domains/blob/3ff014e9a26f29b9e60ac2b3633747f4de03cf83/allowlist.conf#L119)|Dec 2022|block and allow list|
 |[disposable-email-domains/python-disposable-email-domains](./disposable-email-domains/python-disposable-email-domains)|[GitHub](https://github.com/disposable-email-domains/python-disposable-email-domains)|In [allow list](https://github.com/disposable-email-domains/python-disposable-email-domains/blob/98537f0a155348052f33d93fb24d0b2633ddfb7a/disposable_email_domains/__init__.py#L120)|Active|Above lists as Python sets|
 |[disposable/disposable-email-domains](./disposable/disposable-email-domains)|[GitHub](https://github.com/disposable/disposable-email-domains)|**In [domains list](https://github.com/disposable/disposable-email-domains/blob/master/domains.txt)**|Active|Text and JSON lists of domains|
-|[disposable/disposable](./disposable/disposable)|[GitHub](https://github.com/disposable/disposable)|No|Active|Tools for working with domain lists, with list of external sources <br> **TODO**: add these lists|
+|[disposable/disposable](./disposable/disposable)|[GitHub](https://github.com/disposable/disposable)|No|Active|Tools for working with domain lists, with list of external sources|
 |[disposable/static-disposable-lists](./disposable/static-disposable-lists)|[GitHub](https://github.com/disposable/static-disposable-lists/)|No|Apr 2022|Email domains that can't be dynamically updated|
 |[ivolo/disposable-email-domains](./ivolo/disposable-email-domains)|[GitHub](https://github.com/ivolo/disposable-email-domains)|No|Sep 2022|Source for [Kickbox.com API](https://open.kickbox.com/v1/disposable/mailinator.com)|
 |[jamesonev/disposableEmailDomains.txt](./jamesonev/disposableEmailDomains.txt)|[Gist](https://gist.github.com/jamesonev/7e188c35fd5ca754c970e3a1caf045ef/)|No|July 2020|List from defunct block-temporary-email.com|

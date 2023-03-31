@@ -2,8 +2,8 @@
 
 These are repositories that maintain lists of disposable email addresses.
 
-|Directory|Link|Has mozmail.com?|Age|Note|
-|:--------|:---|:---------------|:--|:---|
+|Name|Link|Has mozmail.com?|Age|Note|
+|:---|:---|:---------------|:--|:---|
 |[7c/fakefilter](./7c/fakefilter)|[GitHub](https://github.com/7c/fakefilter)|No|Active|Looks for temp and fake emails in registrations, backend for [fakefilter.net](https://fakefilter.net/static/docs/restful/)|
 |[FGRibreau/mailchecker](./FGRibreau/mailchecker)|[GitHub](https://github.com/fgribreau/mailchecker)|No|Active|Multi-language email validator and temp email detector|
 |[GeroldSetz/emailondeck.com-domains](./GeroldSetz/emailondeck.com-domains)|[GitHub](https://github.com/GeroldSetz/emailondeck.com-domains)|No|Jun 2021|Follows [www.block-disposable-email.com](https://www.block-disposable-email.com/cms/)|
@@ -33,7 +33,9 @@ These are repositories that maintain lists of disposable email addresses.
 
 These provide plugins and an API for checking an email address.
 
-* <https://kickbox.com/> - Verifies email lists, provides API like <https://open.kickbox.com/v1/disposable/gmail.com>
-* <https://fakefilter.net/static/docs/restful/> - API for information about email domains, like <https://fakefilter.net/api/is/fakedomain/gmail.com>
-* <https://www.block-disposable-email.com/cms/> - Provides API with [free registration](https://www.block-disposable-email.com/cms/register/)
-* <https://www.stopforumspam.com> - Plugins for multiple forums, API
+|Main Site|API|mozmail.com result|Note|
+|:--------|:--|:-----------------|:---|
+|[kickbox.com](https://kickbox.com/)|[open.kickbox.com](https://open.kickbox.com) (free)|Not disposable|Paid service to verify email lists|
+|[fakefilter.net](https://fakefilter.net/static/)|[fakefilter.net/api/is/fakedomain](https://fakefilter.net/static/docs/restful/) (free)|Is not a fake domain, no details|Community project for identifying fake emails|
+|[block-disposable-email.com](https://www.block-disposable-email.com/cms/)|[api.block-disposable-email.com/easyapi](https://www.block-disposable-email.com/cms/help-and-usage/easy-api/) (free registration), [Try it](https://www.block-disposable-email.com/cms/try/) (with CAPTCHA)|**`fake-email-address`, block it**|Provides API with [free registration](https://www.block-disposable-email.com/cms/register/)|
+|[stopforumspam.com](https://www.stopforumspam.com)|[api.stopforumspam.org](https://www.stopforumspam.com/usage)|domain is not blocked|Plugins for multiple forums, API|

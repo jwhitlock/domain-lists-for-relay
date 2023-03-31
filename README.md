@@ -14,6 +14,7 @@ These repositories maintain lists of disposable email addresses.
 |:---------|:---------------|:--|:---|
 |[7c/fakefilter](https://github.com/7c/fakefilter)|No|Active|Looks for temp and fake emails in registrations, backend for [fakefilter.net](https://fakefilter.net/static/docs/restful/)|
 |[FGRibreau/mailchecker](https://github.com/fgribreau/mailchecker)|No|Active|Multi-language email validator and temp email detector|
+|[GeroldSetz/Mailinator-Domains](https://github.com/GeroldSetz/Mailinator-Domains)|No|Jun 2021|Domains in sha1 format|
 |[GeroldSetz/emailondeck.com-domains](https://github.com/GeroldSetz/emailondeck.com-domains)|No|Jun 2021|Follows [www.block-disposable-email.com](https://www.block-disposable-email.com/cms/)|
 |[MattKetmo/EmailChecker](https://github.com/MattKetmo/EmailChecker)|No|Feb 2023|PHP disposable email detector|
 |[adamloving/temporary-email-address-domains](https://gist.github.com/adamloving/4401361) (Gist)|No|Jul 2019|Comments advertise other services|
@@ -32,6 +33,7 @@ These repositories maintain lists of disposable email addresses.
 |[kslr/disposable-email-domains](https://github.com/kslr/disposable-email-domains)|**In [list](https://github.com/kslr/disposable-email-domains/blob/3746544f88bf3e4ebb546c52110186ebd69ea2b7/list.txt) (line 111863)**|Active|Text and JSON lists of domains|
 |[maximeg/email_inquire](https://github.com/maximeg/email_inquire)|No|Jan 2020|Ruby library to validate and fix emails, detect disposable emails|
 |[micke/valid_email2](https://github.com/micke/valid_email2)|**In [disposable email domains](https://github.com/micke/valid_email2/blob/bd01c20900941de4e018a98a692f6ec5e64cacbb/config/disposable_email_domains.txt) (line 87313)**|Active|Ruby gem to validate emails, detect disposable emails|
+|[mits87/disposable-email-provider-domains](https://github.com/mits87/disposable-email-provider-domains)|**In [domains.json](https://github.com/mits87/disposable-email-provider-domains/blob/master/data/domains.json)**|Feb 2021|NodeJS wrapper|
 |[smudge/freemail](https://github.com/smudge/freemail)|No|Oct 2022|Ruby port of willwhite's freemail|
 |[stopforumspam/disposable_email_domains](https://github.com/stopforumspam/disposable_email_domains/)|**On [blacklist](https://github.com/stopforumspam/disposable_email_domains/blob/master/blacklist.txt#L66971)**|Oct 2020|List of domains|
 |[wesbos/burner-email-providers](https://github.com/wesbos/burner-email-providers)|No|Active|List of emails, links to Firefox Relay|
@@ -41,9 +43,15 @@ These repositories maintain lists of disposable email addresses.
 
 These provide plugins and an API for checking an email address.
 
-|Main Site|API|mozmail.com result|Note|
-|:--------|:--|:-----------------|:---|
-|[kickbox.com](https://kickbox.com/)|[open.kickbox.com](https://open.kickbox.com) (free)|Not disposable|Paid service to verify email lists|
-|[fakefilter.net](https://fakefilter.net/static/)|[fakefilter.net/api/is/fakedomain](https://fakefilter.net/static/docs/restful/) (free)|Is not a fake domain, no details|Community project for identifying fake emails|
-|[block-disposable-email.com](https://www.block-disposable-email.com/cms/)|[api.block-disposable-email.com/easyapi](https://www.block-disposable-email.com/cms/help-and-usage/easy-api/) (free registration), [Try it](https://www.block-disposable-email.com/cms/try/) (with CAPTCHA)|**`fake-email-address`, block it**|Provides API with [free registration](https://www.block-disposable-email.com/cms/register/)|
-|[stopforumspam.com](https://www.stopforumspam.com)|[api.stopforumspam.org](https://www.stopforumspam.com/usage)|domain is not blocked|Plugins for multiple forums, API|
+|Main Site|API|mozmail.com result|Copyright|Note|
+|:--------|:--|:-----------------|:--------|:---|
+|[Block Temporary Email](https://block-temporary-email.com)|Yes|Not temporary|*none*|Freemium service|
+|[Check-Mail](https://check-mail.org)|[Yes](https://check-mail.org/get-started/), freemium|Valid, but **should be blocked, blacklisted**|*none*|Paid service|
+|[IsTempMail.com](https://www.istempmail.com/)|[www.istempmail.com/api/check](https://www.istempmail.com/api/check) (free to paid)|**blocks** when registering|2023|Side project into API|
+|[block-disposable-email.com](https://www.block-disposable-email.com/cms/)|[api.block-disposable-email.com/easyapi](https://www.block-disposable-email.com/cms/help-and-usage/easy-api/) (free registration), [Try it](https://www.block-disposable-email.com/cms/try/) (with CAPTCHA)|**`fake-email-address`, block it**|2021|Provides API with [free registration](https://www.block-disposable-email.com/cms/register/)|
+|[disify.com](https://disify.com/)|[Yes](https://docs.disify.com/#introduction)|**Disposable domain**|2023|Passion project|
+|[fakecheck.email](https://fakecheck.email)|No|**Disposable domain**|*none*|Advertises block-disposable-email.com|
+|[fakefilter.net](https://fakefilter.net/static/)|[fakefilter.net/api/is/fakedomain](https://fakefilter.net/static/docs/restful/) (free)|Is not a fake domain, no details|2022|Community project for identifying fake emails|
+|[kickbox.com](https://kickbox.com/)|[open.kickbox.com](https://open.kickbox.com) (free)|Not disposable|2023|Paid service to verify email lists|
+|[stopforumspam.com](https://www.stopforumspam.com)|[Yes](https://www.stopforumspam.com/usage)|domain is not blocked|*none*|Plugins for multiple forums, API|
+|[testmail.top](https://testmail.top/en/)|[Yes](https://testmail.top/en/#api)|**On blacklist**|*none*|Donation supported|

@@ -55,3 +55,18 @@
 [submodule "willwhite/freemail"]
 	path = willwhite/freemail
 	url = git@github.com:willwhite/freemail.git
+[submodule "7c/fakefilter"]
+	path = 7c/fakefilter
+	url = git@github.com:7c/fakefilter.git
+[submodule "jamesonev/disposableEmailDomains.txt"]
+	path = jamesonev/disposableEmailDomains.txt
+	url = git@github.com:7e188c35fd5ca754c970e3a1caf045ef.git
+[submodule "disposable/static-disposable-lists"]
+	path = disposable/static-disposable-lists
+	url = git@github.com:disposable/static-disposable-lists.git
+[submodule "stopforumspam/disposable_email_domains"]
+	path = stopforumspam/disposable_email_domains
+	url = git@github.com:stopforumspam/disposable_email_domains.git
+[submodule "daisy1754/jp-disposable-emails"]
+	path = daisy1754/jp-disposable-emails
+	url = git@github.com:daisy1754/jp-disposable-emails.git

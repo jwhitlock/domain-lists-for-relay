@@ -1,0 +1,57 @@
+[submodule "FGRibreau/mailchecker"]
+	path = FGRibreau/mailchecker
+	url = git@github.com:FGRibreau/mailchecker.git
+[submodule "GeroldSetz/emailondeck.com-domains"]
+	path = GeroldSetz/emailondeck.com-domains
+	url = git@github.com:GeroldSetz/emailondeck.com-domains.git
+[submodule "MattKetmo/EmailChecker"]
+	path = MattKetmo/EmailChecker
+	url = git@github.com:MattKetmo/EmailChecker.git
+[submodule "adamloving/temporary-email-address-domains"]
+	path = adamloving/temporary-email-address-domains
+	url = git@github.com:4401361.git
+[submodule "amieiro/disposable-email-domains"]
+	path = amieiro/disposable-email-domains
+	url = git@github.com:amieiro/disposable-email-domains.git
+[submodule "auth0-signals/disposable-email-domains"]
+	path = auth0-signals/disposable-email-domains
+	url = git@github.com:auth0-signals/disposable-email-domains.git
+[submodule "codeAshu/fakemails.txt"]
+	path = codeAshu/fakemails.txt
+	url = git@github.com:ebade8f300809a4079220f771265b0c4.git
+[submodule "disposable-email-domains/disposable-email-domains"]
+	path = disposable-email-domains/disposable-email-domains
+	url = git@github.com:disposable-email-domains/disposable-email-domains.git
+[submodule "disposable-email-domains/python-disposable-email-domains"]
+	path = disposable-email-domains/python-disposable-email-domains
+	url = git@github.com:disposable-email-domains/python-disposable-email-domains.git
+[submodule "disposable/disposable-email-domains"]
+	path = disposable/disposable-email-domains
+	url = git@github.com:disposable/disposable-email-domains.git
+[submodule "disposable/disposable"]
+	path = disposable/disposable
+	url = git@github.com:disposable/disposable.git
+[submodule "ivolo/disposable-email-domains"]
+	path = ivolo/disposable-email-domains
+	url = git@github.com:ivolo/disposable-email-domains.git
+[submodule "jespernissen/disposable-maildomain-list"]
+	path = jespernissen/disposable-maildomain-list
+	url = git@github.com:jespernissen/disposable-maildomain-list.git
+[submodule "kslr/disposable-email-domains"]
+	path = kslr/disposable-email-domains
+	url = git@github.com:kslr/disposable-email-domains.git
+[submodule "maximeg/email_inquire"]
+	path = maximeg/email_inquire
+	url = git@github.com:maximeg/email_inquire.git
+[submodule "micke/valid_email2"]
+	path = micke/valid_email2
+	url = git@github.com:micke/valid_email2.git
+[submodule "smudge/freemail"]
+	path = smudge/freemail
+	url = git@github.com:smudge/freemail.git
+[submodule "wesbos/burner-email-providers"]
+	path = wesbos/burner-email-providers
+	url = git@github.com:wesbos/burner-email-providers.git
+[submodule "willwhite/freemail"]
+	path = willwhite/freemail
+	url = git@github.com:willwhite/freemail.git

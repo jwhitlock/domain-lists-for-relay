@@ -1,6 +1,13 @@
+[Firefox Relay](https://relay.firefox.com) provides emails masks for
+[Firefox Accounts](accounts.firefox.com/) users with a domain of `mozmail.com`,
+or (for paying users) a subdomain of `mozmail.com`. Some services deny
+registration or avoid emailing disposable email addresses. We try to keep
+`mozmail.com` off these deny lists, so that our users can use their email more
+places.
+
 # Disposable domain lists
 
-These are repositories that maintain lists of disposable email addresses.
+These are repositories that maintain lists of [disposable email addresses](https://en.wikipedia.org/wiki/Disposable_email_address).
 
 |Name|Link|Has mozmail.com?|Age|Note|
 |:---|:---|:---------------|:--|:---|

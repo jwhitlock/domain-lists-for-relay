@@ -35,7 +35,7 @@ These repositories maintain lists of disposable email addresses.
 |[micke/valid_email2](https://github.com/micke/valid_email2)|**In [disposable email domains](https://github.com/micke/valid_email2/blob/bd01c20900941de4e018a98a692f6ec5e64cacbb/config/disposable_email_domains.txt) (line 87313)**|Active|Ruby gem to validate emails, detect disposable emails|
 |[mits87/disposable-email-provider-domains](https://github.com/mits87/disposable-email-provider-domains)|**In [domains.json](https://github.com/mits87/disposable-email-provider-domains/blob/master/data/domains.json)**|Feb 2021|NodeJS wrapper|
 |[smudge/freemail](https://github.com/smudge/freemail)|No|Oct 2022|Ruby port of willwhite's freemail|
-|[stopforumspam/disposable_email_domains](https://github.com/stopforumspam/disposable_email_domains/)|**On [blacklist](https://github.com/stopforumspam/disposable_email_domains/blob/master/blacklist.txt#L66971)**|Oct 2020|List of domains|
+|[stopforumspam/disposable_email_domains](https://github.com/stopforumspam/disposable_email_domains/)|**On [blacklist](https://github.com/stopforumspam/disposable_email_domains/blob/master/blacklist.txt#L66971)**|Oct 2020|List of domains. May be old version of toxic domains download on https://www.stopforumspam.com/downloads|
 |[wesbos/burner-email-providers](https://github.com/wesbos/burner-email-providers)|No|Active|List of emails, links to Firefox Relay|
 |[willwhite/freemail](https://github.com/willwhite/freemail)|No|July 2020|List and Node.js module|
 
@@ -53,5 +53,6 @@ These provide plugins and an API for checking an email address.
 |[fakecheck.email](https://fakecheck.email)|No|**Disposable domain**|*none*|Advertises block-disposable-email.com|
 |[fakefilter.net](https://fakefilter.net/static/)|[fakefilter.net/api/is/fakedomain](https://fakefilter.net/static/docs/restful/) (free)|Is not a fake domain, no details|2022|Community project for identifying fake emails|
 |[kickbox.com](https://kickbox.com/)|[open.kickbox.com](https://open.kickbox.com) (free)|Not disposable|2023|Paid service to verify email lists|
-|[stopforumspam.com](https://www.stopforumspam.com)|[Yes](https://www.stopforumspam.com/usage)|domain is not blocked|*none*|Plugins for multiple forums, API|
+|[stopforumspam.com](https://www.stopforumspam.com)|[Yes](https://www.stopforumspam.com/usage)|domain is not blocked|*none*|Plugins for multiple forums, API, [downloads](https://www.stopforumspam.com/downloads) for toxic domains and IPs)|
 |[testmail.top](https://testmail.top/en/)|[Yes](https://testmail.top/en/#api)|**On blacklist**|*none*|Donation supported|
+

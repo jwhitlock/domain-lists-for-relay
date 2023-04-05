@@ -73,3 +73,6 @@
 [submodule "GeroldSetz/Mailinator-Domains"]
 	path = GeroldSetz/Mailinator-Domains
 	url = git@github.com:GeroldSetz/Mailinator-Domains.git
+[submodule "mits87/disposable-email-provider-domains"]
+	path = mits87/disposable-email-provider-domains
+	url = git@github.com:mits87/disposable-email-provider-domains.git

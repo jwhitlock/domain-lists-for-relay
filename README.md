@@ -45,17 +45,18 @@ These provide plugins and an API for checking an email address.
 
 |Main Site|API|mozmail.com result|Copyright|Note|
 |:--------|:--|:-----------------|:--------|:---|
-|[IsTempMail.com](https://www.istempmail.com/)|[www.istempmail.com/api/check](https://www.istempmail.com/api/check) (free to paid)|**blocks** when registering|2023|Side project into API|
 |[block-disposable-email.com](https://www.block-disposable-email.com/cms/)|[api.block-disposable-email.com/easyapi](https://www.block-disposable-email.com/cms/help-and-usage/easy-api/) (free registration), [Try it](https://www.block-disposable-email.com/cms/try/) (with CAPTCHA)|**`fake-email-address`, block it**|2021|Provides API with [free registration](https://www.block-disposable-email.com/cms/register/)|
 |[block-temporary-email.com](https://block-temporary-email.com)|Yes|Not temporary|*none*|Freemium service|
-|[check-mail.org](https://check-mail.org)|[Yes](https://check-mail.org/get-started/), freemium|Valid, but **should be blocked, blacklisted**|*none*|Paid service|
+|[check-mail.org](https://check-mail.org)|[Yes](https://check-mail.org/get-started/), freemium|Feb 2023: Valid, do not block, domain risk 70<br>Was: Valid, but **should be blocked, blacklisted**|*none*|Paid service|
 |[disify.com](https://disify.com/)|[Yes](https://docs.disify.com/#introduction)|**Disposable domain**|2023|Passion project|
 |[fakecheck.email](https://fakecheck.email)|No|**Disposable domain**|*none*|Advertises block-disposable-email.com|
 |[fakefilter.net](https://fakefilter.net/static/)|[fakefilter.net/api/is/fakedomain](https://fakefilter.net/static/docs/restful/) (free)|Is not a fake domain, no details|2022|Community project for identifying fake emails|
+|[istempmail.com](https://www.istempmail.com/)|[www.istempmail.com/api/check](https://www.istempmail.com/api/check) (free to paid)|**blocks** when registering|2023|Side project into API|
 |[kickbox.com](https://kickbox.com/)|[open.kickbox.com](https://open.kickbox.com) (free)|Not disposable|2023|Paid service to verify email lists|
+|[neverbounce.com](https://neverbounce.com/)|Yes|Less than 1% chance of bounce|2023|Paid with free trial of bounce checking for list|
+|[spamhaus.org](https://www.spamhaus.org)|Yes|Not blocked|2023|Non-profit preventing spam. The [Spamhaus DBL](https://www.spamhaus.org/faq/section/Spamhaus%20DBL) tracks domains, and is queried via DNS like `host mozmail.com.dbl.spamhaus.org`. A `not found: 3(NXDOMAIN)` means the domain is not on the blocklist.|
 |[stopforumspam.com](https://www.stopforumspam.com)|[Yes](https://www.stopforumspam.com/usage)|domain is not blocked|*none*|Plugins for multiple forums, API, [downloads](https://www.stopforumspam.com/downloads) for toxic domains and IPs)|
 |[testmail.top](https://testmail.top/en/)|[Yes](https://testmail.top/en/#api)|**On blacklist**|*none*|Donation supported|
-|[neverbounce.com](https://neverbounce.com/)|Yes|Less than 1% chance of bounce|2023|Paid with free trial of bounce checking for list|
 
 # Lists of Sources
 

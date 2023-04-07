@@ -61,3 +61,4 @@ These provide plugins and an API for checking an email address.
 # Lists of Sources
 
 * [SaaSHub - Email Verification API Software](https://www.saashub.com/best-email-verification-api-software?context=apis) - Not processed, many services
+* [Rackaid - The 8 Email Blacklists You Should Actually Care About](https://www.rackaid.com/blog/email-blacklists/) - Mostly IP blocks, but services may have domain blocks too

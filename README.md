@@ -24,7 +24,7 @@ These repositories maintain lists of disposable email addresses.
 |[daisy1754/jp-disposable-emails](https://github.com/daisy1754/jp-disposable-emails/)|No|Jun 2021|List of domains from other sources|
 |[disposable-email-domains/disposable-email-domains](https://github.com/disposable-email-domains/disposable-email-domains)|In [allow list](https://github.com/disposable-email-domains/disposable-email-domains/blob/3ff014e9a26f29b9e60ac2b3633747f4de03cf83/allowlist.conf#L119)|Dec 2022|block and allow list|
 |[disposable-email-domains/python-disposable-email-domains](https://github.com/disposable-email-domains/python-disposable-email-domains)|In [allow list](https://github.com/disposable-email-domains/python-disposable-email-domains/blob/98537f0a155348052f33d93fb24d0b2633ddfb7a/disposable_email_domains/__init__.py#L120)|Active|Above lists as Python sets|
-|[disposable/disposable-email-domains](https://github.com/disposable/disposable-email-domains)|**In [domains list](https://github.com/disposable/disposable-email-domains/blob/master/domains.txt)**|Active|Text and JSON lists of domains|
+|[disposable/disposable-email-domains](https://github.com/disposable/disposable-email-domains)|No|Active|Text and JSON lists of domains|
 |[disposable/disposable](https://github.com/disposable/disposable)|No|Active|Tools for working with domain lists, with list of external sources|
 |[disposable/static-disposable-lists](https://github.com/disposable/static-disposable-lists/)|No|Apr 2022|Email domains that can't be dynamically updated|
 |[ivolo/disposable-email-domains](https://github.com/ivolo/disposable-email-domains)|No|Sep 2022|Source for [Kickbox.com API](https://open.kickbox.com/v1/disposable/mailinator.com)|

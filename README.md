@@ -47,10 +47,12 @@ These provide plugins and an API for checking an email address.
 |:--------|:--|:-----------------|:--------|:---|
 |[block-disposable-email.com](https://www.block-disposable-email.com/cms/)|[api.block-disposable-email.com/easyapi](https://www.block-disposable-email.com/cms/help-and-usage/easy-api/) (free registration), [Try it](https://www.block-disposable-email.com/cms/try/) (with CAPTCHA)|**`fake-email-address`, block it**|2021|Provides API with [free registration](https://www.block-disposable-email.com/cms/register/)|
 |[block-temporary-email.com](https://block-temporary-email.com)|Yes|Not temporary|*none*|Freemium service|
+|[centralops.net](https://centralops.net/co/),<br>Email Dossier|[Kind of](https://centralops.net/co/EmailDossier.aspx?email=test@example.com")|Confidence 3 - SMTP (Highest by tool)|2017|[HexValidEmail result](https://hexillion.com/docs/guides/HexValidEmail/concepts/interpret.htm)|
 |[check-mail.org](https://check-mail.org)|[Yes](https://check-mail.org/get-started/), freemium|Valid, do not block, domain risk 70|*none*|Paid service|
 |[disify.com](https://disify.com/)|[Yes](https://docs.disify.com/#introduction)|**Disposable domain**|2023|Passion project|
 |[fakecheck.email](https://fakecheck.email)|No|**Disposable domain**|*none*|Advertises block-disposable-email.com|
 |[fakefilter.net](https://fakefilter.net/static/)|[fakefilter.net/api/is/fakedomain](https://fakefilter.net/static/docs/restful/) (free)|Is not a fake domain, no details|2022|Community project for identifying fake emails|
+|[ipqualityscore.com](https://www.ipqualityscore.com/)|[Yes](https://www.ipqualityscore.com/free-email-validation-test)|Not Valid, Disposable|Focus on fraud prevention|
 |[istempmail.com](https://www.istempmail.com/)|[www.istempmail.com/api/check](https://www.istempmail.com/api/check) (free to paid)|**blocks** when registering|2023|Side project into API|
 |[kickbox.com](https://kickbox.com/)|[open.kickbox.com](https://open.kickbox.com) (free)|Not disposable|2023|Paid service to verify email lists|
 |[neverbounce.com](https://neverbounce.com/)|Yes|Less than 1% chance of bounce|2023|Paid with free trial of bounce checking for list|

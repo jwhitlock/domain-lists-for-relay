@@ -30,7 +30,7 @@ These repositories maintain lists of disposable email addresses.
 |[ivolo/disposable-email-domains](https://github.com/ivolo/disposable-email-domains)|No|Sep 2022|Source for [Kickbox.com API](https://open.kickbox.com/v1/disposable/mailinator.com)|
 |[jamesonev/disposableEmailDomains.txt](https://gist.github.com/jamesonev/7e188c35fd5ca754c970e3a1caf045ef/) (Gist)|No|July 2020|List from defunct block-temporary-email.com|
 |[jespernissen/disposable-maildomain-list](https://github.com/jespernissen/disposable-maildomain-list)|No|Aug 2021|List of domains|
-|[kslr/disposable-email-domains](https://github.com/kslr/disposable-email-domains)|**In [list](https://github.com/kslr/disposable-email-domains/blob/3746544f88bf3e4ebb546c52110186ebd69ea2b7/list.txt) (line 111863)**|Active|Text and JSON lists of domains|
+|[kslr/disposable-email-domains](https://github.com/kslr/disposable-email-domains)|No|Active|Text and JSON lists of domains, updated from upstream daily|
 |[maximeg/email_inquire](https://github.com/maximeg/email_inquire)|No|Jan 2020|Ruby library to validate and fix emails, detect disposable emails|
 |[micke/valid_email2](https://github.com/micke/valid_email2)|**In [disposable email domains](https://github.com/micke/valid_email2/blob/bd01c20900941de4e018a98a692f6ec5e64cacbb/config/disposable_email_domains.txt) (line 87313)**|Active|Ruby gem to validate emails, detect disposable emails|
 |[mits87/disposable-email-provider-domains](https://github.com/mits87/disposable-email-provider-domains)|**In [domains.json](https://github.com/mits87/disposable-email-provider-domains/blob/master/data/domains.json)**|Feb 2021|NodeJS wrapper|

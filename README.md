@@ -35,7 +35,7 @@ These repositories maintain lists of disposable email addresses.
 |[micke/valid_email2](https://github.com/micke/valid_email2)|**In [disposable email domains](https://github.com/micke/valid_email2/blob/bd01c20900941de4e018a98a692f6ec5e64cacbb/config/disposable_email_domains.txt) (line 87313)**|Active|Ruby gem to validate emails, detect disposable emails|
 |[mits87/disposable-email-provider-domains](https://github.com/mits87/disposable-email-provider-domains)|**In [domains.json](https://github.com/mits87/disposable-email-provider-domains/blob/master/data/domains.json)**|Feb 2021|NodeJS wrapper|
 |[smudge/freemail](https://github.com/smudge/freemail)|No|Oct 2022|Ruby port of willwhite's freemail|
-|[stopforumspam/disposable_email_domains](https://github.com/stopforumspam/disposable_email_domains/)|No|**On [blacklist](https://github.com/stopforumspam/disposable_email_domains/blob/master/blacklist.txt#L66971)**|Apr 2023|List of domains. May be old version of toxic domains download on https://www.stopforumspam.com/downloads <br>Removed in [PR 1](https://github.com/stopforumspam/disposable_email_domains/pull/1), April 2023|
+|[stopforumspam/disposable_email_domains](https://github.com/stopforumspam/disposable_email_domains/)|No|Apr 2023|List of domains. May be old version of toxic domains download on https://www.stopforumspam.com/downloads|
 |[wesbos/burner-email-providers](https://github.com/wesbos/burner-email-providers)|No|Active|List of emails, links to Firefox Relay|
 |[willwhite/freemail](https://github.com/willwhite/freemail)|No|July 2020|List and Node.js module|
 

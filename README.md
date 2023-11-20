@@ -18,7 +18,7 @@ These repositories maintain lists of disposable email addresses.
 |[GeroldSetz/emailondeck.com-domains](https://github.com/GeroldSetz/emailondeck.com-domains)|No|Jun 2021|Follows [www.block-disposable-email.com](https://www.block-disposable-email.com/cms/)|
 |[MattKetmo/EmailChecker](https://github.com/MattKetmo/EmailChecker)|No|Feb 2023|PHP disposable email detector|
 |[adamloving/temporary-email-address-domains](https://gist.github.com/adamloving/4401361) (Gist)|No|Jul 2019|Comments advertise other services|
-|[amieiro/disposable-email-domains](https://github.com/amieiro/disposable-email-domains)|**In [allow](https://github.com/amieiro/disposable-email-domains/blob/bf5361e37ab0c2616edd5c2cd50556fe6f993965/allowDomains.txt#L335) and [deny domains](https://github.com/amieiro/disposable-email-domains/blob/bf5361e37ab0c2616edd5c2cd50556fe6f993965/denyDomains.txt#95160) (line 95160)**|Active|Combines lists from other sources|
+|[amieiro/disposable-email-domains](https://github.com/amieiro/disposable-email-domains)|In [allow domains](https://github.com/amieiro/disposable-email-domains/blob/61715794c3b8a54dfe54716f57b2676024cbd1ae/allowDomains.txt#L338)|Active|Combines lists from other sources|
 |[auth0-signals/disposable-email-domains](https://github.com/auth0-signals/disposable-email-domains)|No|Aug 2020|Submissions to defunct site apility.io|
 |[codeAshu/fakemails.txt](https://gist.github.com/codeAshu/ebade8f300809a4079220f771265b0c4) (Gist)|No|July 2018|List of domains, comments suggest changes|
 |[daisy1754/jp-disposable-emails](https://github.com/daisy1754/jp-disposable-emails/)|No|Jun 2021|List of domains from other sources|
@@ -32,7 +32,7 @@ These repositories maintain lists of disposable email addresses.
 |[jespernissen/disposable-maildomain-list](https://github.com/jespernissen/disposable-maildomain-list)|No|Aug 2021|List of domains|
 |[kslr/disposable-email-domains](https://github.com/kslr/disposable-email-domains)|No|Active|Text and JSON lists of domains, updated from upstream daily|
 |[maximeg/email_inquire](https://github.com/maximeg/email_inquire)|No|Jan 2020|Ruby library to validate and fix emails, detect disposable emails|
-|[micke/valid_email2](https://github.com/micke/valid_email2)|**In [disposable email domains](https://github.com/micke/valid_email2/blob/bd01c20900941de4e018a98a692f6ec5e64cacbb/config/disposable_email_domains.txt) (line 87313)**|Active|Ruby gem to validate emails, detect disposable emails|
+|[micke/valid_email2](https://github.com/micke/valid_email2)|No|Active|Ruby gem to validate emails, detect disposable emails|
 |[mits87/disposable-email-provider-domains](https://github.com/mits87/disposable-email-provider-domains)|No (repo),<br>**Yes (current release 1.0.9)**|Active|NodeJS wrapper|
 |[smudge/freemail](https://github.com/smudge/freemail)|No|Oct 2022|Ruby port of willwhite's freemail|
 |[stopforumspam/disposable_email_domains](https://github.com/stopforumspam/disposable_email_domains/)|No|Apr 2023|List of domains. May be old version of toxic domains download on https://www.stopforumspam.com/downloads|
@@ -45,12 +45,12 @@ These provide plugins and an API for checking an email address.
 
 |Main Site|API|mozmail.com result|Copyright|Note|
 |:--------|:--|:-----------------|:--------|:---|
-|[block-disposable-email.com](https://www.block-disposable-email.com/cms/)|[api.block-disposable-email.com/easyapi](https://www.block-disposable-email.com/cms/help-and-usage/easy-api/) (free registration), [Try it](https://www.block-disposable-email.com/cms/try/) (with CAPTCHA)|**`fake-email-address`, block it**|2021|Provides API with [free registration](https://www.block-disposable-email.com/cms/register/)|
+|[block-disposable-email.com](https://www.block-disposable-email.com/cms/)|[api.block-disposable-email.com/easyapi](https://www.block-disposable-email.com/cms/help-and-usage/easy-api/) (free registration), [Try it](https://www.block-disposable-email.com/cms/try/) (with CAPTCHA)|**`fake-email-address`, block it**|2021|Provides API with [free registration](https://www.block-disposable-email.com/cms/register/). Server Error on Nov 2023.|
 |[block-temporary-email.com](https://block-temporary-email.com)|Yes|Not temporary|*none*|Freemium service|
 |[block-trashmail.space](https://www.block-trashmail.space/)|[Yes](https://www.block-trashmail.space/api/mozmail.com)|`0` (not on blacklist)|*none*|Free service, no rate-limit|
 |[centralops.net](https://centralops.net/co/),<br>Email Dossier|[Kind of](https://centralops.net/co/EmailDossier.aspx?email=test@example.com")|Confidence 3 - SMTP (Highest by tool)|2017|[HexValidEmail result](https://hexillion.com/docs/guides/HexValidEmail/concepts/interpret.htm)|
 |[check-mail.org](https://check-mail.org)|[Yes](https://check-mail.org/get-started/), freemium|Valid, do not block, domain risk 70|*none*|Paid service|
-|[disify.com](https://disify.com/)|[Yes](https://docs.disify.com/#introduction)|**Disposable domain**|2023|Passion project|
+|[disify.com](https://disify.com/)|[Yes](https://docs.disify.com/#introduction)|Valid Email Address|2023|Passion project. mozmail.com switched to valid around Nov 2023|
 |[fakecheck.email](https://fakecheck.email)|No|**Disposable domain**|*none*|Advertises block-disposable-email.com|
 |[fakefilter.net](https://fakefilter.net/static/)|[fakefilter.net/api/is/fakedomain](https://fakefilter.net/static/docs/restful/) (free)|Is not a fake domain, no details|2022|Community project for identifying fake emails|
 |[ipqualityscore.com](https://www.ipqualityscore.com/)|[Yes](https://www.ipqualityscore.com/free-email-validation-test)|Not Valid, Disposable|2023|Focus on fraud prevention|

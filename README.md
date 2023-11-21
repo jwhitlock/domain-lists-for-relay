@@ -45,13 +45,13 @@ These provide plugins and an API for checking an email address.
 
 |Main Site|API|mozmail.com result|Copyright|Note|
 |:--------|:--|:-----------------|:--------|:---|
-|[block-disposable-email.com](https://www.block-disposable-email.com/cms/)|[api.block-disposable-email.com/easyapi](https://www.block-disposable-email.com/cms/help-and-usage/easy-api/) (free registration), [Try it](https://www.block-disposable-email.com/cms/try/) (with CAPTCHA)|**`fake-email-address`, block it**|2021|Provides API with [free registration](https://www.block-disposable-email.com/cms/register/). Server Error on Nov 2023.|
+|[block-disposable-email.com](https://www.block-disposable-email.com/cms/)|[api.block-disposable-email.com/easyapi](https://www.block-disposable-email.com/cms/help-and-usage/easy-api/) (free registration), [Try it](https://www.block-disposable-email.com/cms/try/) (with CAPTCHA)|**`fake-email-address`, block it**|2021|Provides API with [free registration](https://www.block-disposable-email.com/cms/register/).|
 |[block-temporary-email.com](https://block-temporary-email.com)|Yes|Not temporary|*none*|Freemium service|
 |[block-trashmail.space](https://www.block-trashmail.space/)|[Yes](https://www.block-trashmail.space/api/mozmail.com)|`0` (not on blacklist)|*none*|Free service, no rate-limit|
 |[centralops.net](https://centralops.net/co/),<br>Email Dossier|[Kind of](https://centralops.net/co/EmailDossier.aspx?email=test@example.com")|Confidence 3 - SMTP (Highest by tool)|2017|[HexValidEmail result](https://hexillion.com/docs/guides/HexValidEmail/concepts/interpret.htm)|
 |[check-mail.org](https://check-mail.org)|[Yes](https://check-mail.org/get-started/), freemium|Valid, do not block, domain risk 70|*none*|Paid service|
 |[disify.com](https://disify.com/)|[Yes](https://docs.disify.com/#introduction)|Valid Email Address|2023|Passion project. mozmail.com switched to valid around Nov 2023|
-|[fakecheck.email](https://fakecheck.email)|No|**Disposable domain**|*none*|Advertises block-disposable-email.com. Server Error on Nov 2023.|
+|[fakecheck.email](https://fakecheck.email)|No|**Disposable domain**|*none*|Advertises block-disposable-email.com.|
 |[fakefilter.net](https://fakefilter.net/static/)|[fakefilter.net/api/is/fakedomain](https://fakefilter.net/static/docs/restful/) (free)|Is not a fake domain, no details|2022|Community project for identifying fake emails|
 |[ipqualityscore.com](https://www.ipqualityscore.com/)|[Yes](https://www.ipqualityscore.com/free-email-validation-test)|Not Valid, Disposable|2023|Focus on fraud prevention|
 |[istempmail.com](https://www.istempmail.com/)|[www.istempmail.com/api/check](https://www.istempmail.com/api/check) (free to paid)|**blocks** when registering|2023|Side project into API|

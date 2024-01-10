@@ -65,3 +65,4 @@ These provide plugins and an API for checking an email address.
 
 * [SaaSHub - Email Verification API Software](https://www.saashub.com/best-email-verification-api-software?context=apis) - Not processed, many services
 * [Rackaid - The 8 Email Blacklists You Should Actually Care About](https://www.rackaid.com/blog/email-blacklists/) - Mostly IP blocks, but services may have domain blocks too
+* [Github Search](https://github.com/search?q=%22mozmail.com%22+NOT+%22%40mozmail.com%22+NOT+%22.mozmail.com%22+NOT+%22domozmail.com%22&type=code) can find more instances
